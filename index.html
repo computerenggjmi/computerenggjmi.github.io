@@ -1176,7 +1176,15 @@
 
                         <div class="col-md-6 col-sm-4">
                             <div id="map" style="width:550px;height:400px; margin-top:20px;"></div>
-
+			    	<style>
+					@media screen and(max-width:768px)
+					{
+						#map{
+							width : 250px;
+							height : 400px;
+						}
+					}
+				</style>
                             <script>
                                 function myMap() {
                                     var mapCanvas = document.getElementById("map");
