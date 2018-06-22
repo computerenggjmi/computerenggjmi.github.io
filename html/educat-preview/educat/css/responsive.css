@@ -17,6 +17,7 @@
     .video-wrapper, .video-banner {height: 630px}
     .form-container > button {padding: 0 22px;}
     .select.large {width: 247px;}
+    
 }
 
 /* Normal desktop :992px. */
@@ -174,6 +175,7 @@
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+    h3{font-size:0.em;}
     .container {width:300px}
     .as-mainwrapper.wrapper-boxed {width:300px}
     .mobile-menu-area {display: block}
@@ -206,7 +208,10 @@
     .button-default {padding: 10px 20px;}
     .slider-area::after {width: 100%; transform: rotate(0) scale(1)}
     .logo {padding: 46px 0 28px; text-align: center;}
-    .about-area {background: #2D3E50; margin-top: 80px;}
+    .about-area {
+        background: #2D3E50; margin-top: 0px;
+        margin-bottom: 20px;
+     }
     .about-container {margin-left: 0;}
     .single-latest-text {padding: 30px 17px;}
     .section-title-wrapper {margin-bottom: 60px;}

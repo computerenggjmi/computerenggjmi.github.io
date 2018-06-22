@@ -991,6 +991,7 @@ body {
 .about-university {
     background: rgba(0, 0, 0, 0) url("img/1.jpg") no-repeat scroll center top;
     box-shadow: 0px 5px 20px 5px #aaa;
+    
 }
 .about-department {
     background: rgba(0, 0, 0, 0) url("img/aboutdepartment.jpg") no-repeat scroll center top;
@@ -1030,7 +1031,7 @@ body {
     line-height: 26px;
     margin-bottom: 42px;
 }
-.about-container {margin-left: 20px;}
+.about-container {margin-left: 20spx;}
 .about-area .button-default {padding: 5px 20px;}
 .about-container > .button-default:hover {background: #ffffff none repeat scroll 0 0; color: #2d3e50;}
 /*----------------------------------------*/
@@ -1983,38 +1984,47 @@ span.comment-time {padding-right: 3px; position: relative;}
     padding: 80px 0;
     position: relative;
     box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.75);
+    
 }
 .faculty-breadcrumb {
-    background: rgba(0, 0, 0, 0) url("img/faculty.jpg") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("img/faculty.jpg") no-repeat scroll 100% auto;
+    background-size: cover;
 }
 
 .facilities-breadcrumb {
     background: rgba(0, 0, 0, 0) url("img/4k.jpg") no-repeat scroll 0 0;
+    background-size: cover;
 }
 .department-breadcrumb {
-    background: rgba(0, 0, 0, 0) url("img/4.jpg") no-repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("img/4.jpg") no-repeat scroll 100% 100%;
+    background-size: cover;
 }
 .jmi-breadcrumb {
     background: rgba(0, 0, 0, 0) url("img/jmi.jpg") no-repeat scroll 0 0;
+    background-size: cover;
 }
 .courses-breadcrumb {
     background: rgba(0, 0, 0, 0) url("img/co.jpg") no-repeat scroll 0 0;
+    background-size: cover;
 }
 .event-breadcrumb {
     background: rgba(0, 0, 0, 0) url("img/sabeer3.jpg") no-repeat scroll 0 0;
+    background-size: cover;
 }
 .coursestructure-breadcrumb {
     background: rgba(0, 0, 0, 0) url("img/co.jpg") no-repeat scroll 0 0;
+    background-size: cover;
 }
 .people-breadcrumb {
     background: rgba(0, 0, 0, 0) url("img/people.jpg") no-repeat scroll 0 0;
+    background-size: cover;
 }
 
 .breadcrumb-banner-area.fixed-bg {background: url("img/3.jpg") no-repeat fixed top center / cover}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
 .breadcrumb-text {z-index: 9; position: relative;}
 .breadcrumb-banner-area:after {
-    background:  none repeat scroll 0 0;
+    background:  none repeat scroll 100% 100%;
     content: "";
     height: 100%;
     left: 0;
@@ -2595,8 +2605,8 @@ span.c-text {display: inline-block;}
 
 .message-from-HOD {
     padding: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 1%;
+    padding-right: 1%;
     margin-top: 20px;
     margin-bottom: 40px;
     background-color: #046b09;
@@ -2621,7 +2631,7 @@ span.c-text {display: inline-block;}
   font-size: 18px;
   margin: 0 auto;
   quotes: "\201C""\201D""\2018""\2019";
-  padding: 10px 20px;
+  padding: 1% 2%;
   line-height: 1.4;
 }
 
