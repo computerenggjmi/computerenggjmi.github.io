@@ -1987,7 +1987,7 @@ span.comment-time {padding-right: 3px; position: relative;}
     
 }
 .faculty-breadcrumb {
-    background: rgba(0, 0, 0, 0) url("img/faculty.jpg") no-repeat scroll 100% auto;
+    background: rgba(0, 0, 0, 0) url("img/co.jpg") no-repeat scroll 100% auto;
     background-size: cover;
 }
 
@@ -2615,15 +2615,14 @@ span.c-text {display: inline-block;}
 }
 
 .vission {
-    padding: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding: 10px;
+   
     margin-top: 20px;
     margin-bottom: 40px;
     background-color: white;
     color: #046b09;
     text-align: center;
-    border: 10px solid  #046b09;
+    border: 5px solid  #046b09;
     
 }
 
@@ -2675,7 +2674,7 @@ span.c-text {display: inline-block;}
 }
 
 .quotation1{
-  font-size: 24px;
+  font-size: .95em;
   margin: 0 auto;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 10px 20px;

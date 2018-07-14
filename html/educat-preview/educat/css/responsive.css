@@ -176,7 +176,7 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
     h3{font-size:0.em;}
-    .container {width:300px}
+    .container {width:100%;}
     .as-mainwrapper.wrapper-boxed {width:300px}
     .mobile-menu-area {display: block}
     .as-mainwrapper.wrapper-boxed .header-logo-menu.stick {width: 300px;}
@@ -206,13 +206,40 @@
         text-align: center;
     }
     .button-default {padding: 10px 20px;}
-    .slider-area::after {width: 100%; transform: rotate(0) scale(1)}
     .logo {padding: 46px 0 28px; text-align: center;}
     .about-area {
         background: #2D3E50; margin-top: 0px;
         margin-bottom: 20px;
+
      }
-    .about-container {margin-left: 0;}
+     .about-area:before {
+    height: 70px;
+    left: 0;
+    right: auto;
+    top: -20px;
+    width: 65%;
+}
+.about-area:after {
+    border-width: 35px 30px;
+    left: 65%;
+    top: -20px;
+    right: auto
+}
+.about-area h3 {
+    font-size: 30px;
+    margin-bottom: 79px;
+    padding-top: 0px;
+    z-index: 9;
+    position: relative;
+}
+.about-area p {
+    font-family: "Raleway";
+    line-height: 26px;
+    margin-bottom: 42px;
+}
+
+    .about-container {margin-left: 0;
+    padding: 10px;}
     .single-latest-text {padding: 30px 17px;}
     .section-title-wrapper {margin-bottom: 60px;}
     .section-title h3 {font-size: 25px;}
@@ -221,8 +248,8 @@
     .section-margin {margin: 60px 0 80px 0}
     .section-bottom-padding {padding: 0 0 60px;}
     .course-page {padding-top: 80px;}
-    .about-area::before {width: 74%;}    
-    .about-area::after {left: 74%;}
+    .about-area::before {width: 90%;}    
+    .about-area::after {left: 90%;}
     .single-item {margin-bottom: 80px;padding: 0 16px;}
     .single-item-image {top: -20px;}
     .button-large.button-default {margin-top: 5px;}
