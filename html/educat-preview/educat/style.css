@@ -1986,8 +1986,8 @@ span.comment-time {padding-right: 3px; position: relative;}
     box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.75);
     
 }
-.faculty-breadcrumb {
-    background: rgba(0, 0, 0, 0) url("img/co.jpg") no-repeat scroll 100% auto;
+.people1-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/faculty.jpg") no-repeat scroll 0 0;
     background-size: cover;
 }
 
