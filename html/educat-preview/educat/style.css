@@ -1300,11 +1300,11 @@ body {
     margin: auto;
     padding: 0;
     position: relative;
-    width: 51%;
+    width: 100%;
     z-index: 9;
 }
 .sin-testiText{outline: none}
-.sin-testiText p {margin-top: 22px; color: #fff; line-height: 24px}
+.sin-testiText p {margin-top: 10px; color: #fff; line-height: 24px}
 .slick-prev, .slick-next {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: medium none;
@@ -1444,6 +1444,10 @@ body {
 .social-icons > a:last-child {margin-right: 0;}
 .social-icons > a:hover {color: #ffffff;}
 .social-icons {margin-top: 27px;}
+.single-footer-widget{
+    font-size: .95em;
+}
+
 .single-footer-widget > h3 {
     font-family: raleway;
     font-weight: 800;
@@ -2608,7 +2612,7 @@ span.c-text {display: inline-block;}
     padding-left: 1%;
     padding-right: 1%;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     background-color: #046b09;
     color: white;
     text-align: center;
