@@ -436,6 +436,15 @@
                     float: right;
                     margin-bottom: 20px;
                 }
+                marquee li{
+                    padding: 20px 10px 0px 10px;
+                    font-weight: 1000;
+                }
+
+                marquee li a{
+                    color: #575656;
+                    cursor: pointer;
+                }
             </style>
             <div class="container">
                 <div class="col-md-8 updates">
@@ -507,29 +516,80 @@
                 </div>
                 <div class="col-md-4 placement">
                     <div class="col heading">
-                        <h3>Placement</h3>
+                        <h3>Latest Publications</h3>
                     </div>
                     <div class="row single-update">
-                        <div class="col-md-2 update-image">
-                            <a href="#">
-                                <img src="html/educat-preview/educat/img/event/4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="#">JMI Honours Hotmail Founder Sabeer Bhatia</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>11 am | 7th February, 2018</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>Dr M A Ansari Auditorium, Jamia Millia Islamia</span>
-                            </div>
-                            <p>It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia at
-                                Dr M A Ansari Auditorium It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia at Dr M A Ansari
-                                Auditorium It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia at Dr M A Ansari
-                                Auditorium.....
-                            </p>
+                        <div class="content">
+                            <!-- Content -->
+                            <marquee id='marquee' direction="up" onmouseover="this.stop();" onmouseout="this.start();" height="370vh">
+                                <ul style="color:#FFFFFF;font-size:1em;">
+                                    <li>
+                                        <a href="https://file.scirp.org/pdf/JCC_2016022415593772.pdf">
+                                            <strong>Ansari Mohammad Izharul Hasan, Surendra Pal Singh, M. N. Doja,
+                                                <b>Effect of Transmission Range on Ad Hoc on Demand Distance Vector Routing Protocol</b>, Jr of Comp.
+                                                & Comm. 4(2), 34, 2016 ISSN: 2327-5227.</a>
+                                        </strong>
+                                    </li>
+                                    <li>
+                                        <a href="http://www.academia.edu/30923611/Student_Worksheet_Development_Based_on_Contextual_and_Problem_Solving_on_Microeconomic_Theory_Introductory_Subjects">
+                                            <strong>Gaur, Shailendra Singh, A. K. Mohapatra, Sarfaraz Masood,
+                                                <b> Design of an optimized novel cryptographic algorithm and comparative analysis with the existing cryptographic
+                                                    algorithms</b>, Int.Jr of Control Theory & Appl., 9(34) 503-514, 2016 ISSN: 0974-5572</strong>
+                                        </a>
+                                    </li>
+                        
+                        
+                                    <li>
+                                        <a href="https://link.springer.com/article/10.1007/s40012-016-0125-9">
+                                            <strong>AMalhotra Shweta, et al.,
+                                                <b>Cloud Database Management System security challenges and solutions: an analysis</b>, CSI Transactions
+                                                on ICT, 4(2) 199-207, 2016 ISSN: 2277-9086</a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <strong>AMusheer Ahmad, Nikhil Mittal, Prerit Garg, ManafMahtab Khan,
+                                                <b>Efficient cryptographic substitution box design using travelling salesman problem and chaos</b>,
+                                                Persp. in Sci., 8, 465-468, 2016, ISSN: 2213-0209.</a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <strong>Musheer Ahmad, Shruti Khurana, Sushmita Singh, Hamed D. Al Sharari,
+                                                <b>A simple secure hash function scheme using multiple chaotic maps, 3D Research</b>, 8(2)1-14 2017
+                                                ISSN: 2092-6731</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <strong>Rijwan Khan, M. Amjad,
+                                                <b>Automatic Generation of Test Cases for Data Flow Test Paths Using K-Means Clustering and Genetic
+                                                    Algorithm</b>, Inter. Jr. of Appl. Engg Res.11(1) 473- 478, 2016 ISSN 0973-4562</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <strong>Rijwan Khan, M. Amjad,
+                                                <b>Load Testing of Web Applications Using HP Load Runner and CA Wily Introscope tools</b>, IJETTCS,
+                                                5(3) 2016 ISSN 2278-6856</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <strong>Rijwan Khan, M. Amjad,
+                                                <b>Performance testing (Load) of web applications based on test case management</b>, Perspectives in
+                                                Science, Vol. 8, 355-357, 2016.</strong>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a>
+                                            <strong>Subhash Chandra Gupta, M. Amjad,
+                                                <b>A survey of routing protocols in wireless sensor network</b>, Inter. Jr of Sci. & Res. 6(3) 2017-2021,
+                                                2017 ISSN 2319-7064</strong>
+                                        </a>
+                                    </li>
+                        
+                                </ul>
+                        
+                            </marquee>
                         </div>
                     </div>
                 </div>
