@@ -1512,6 +1512,7 @@ body {
     padding: 18px 0;
 }
 .column-right {float: right}
+.footer-area span{font-size: 16px; font-weight: 1000;}
 .footer-area span a {color: #ffffff;}
 .footer-area span a:hover {border-bottom: 1px solid #ffffff;}
 .single-footer-widget > a {color: #ffffff; display: block; margin-bottom: 11px;}
