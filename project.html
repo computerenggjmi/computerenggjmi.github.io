@@ -386,12 +386,12 @@
                                 }
                             </style>
 
-                            <div class="event-details-content sem" id="bs1" style="">
+                            <div class="col-md-10 event-details-content sem" id="pp1" style="">
                                 <div class="col-md-12" style="background-color:#046b09; color:white; padding:20px; text-align:center;">
-                                    <h2>Final Year Projects</h2>
+                                    <h2>Batch 2016 - 2017 Major Projects</h2>
                                 </div>
                                 <div class="single-event-item">
-
+                            
                                     <table class="table">
                                         <tr>
                                             <th>
@@ -481,8 +481,8 @@
                                             <th>13BSS0033</br>13BSS0067</th>
                                             <th>Mayank Shekhar
                                                 <br>Sumit Kumar Jha</th>
-                                            <th>An optical character recognition based android application for business card
-                                                scanner</th>
+                                            <th>An optical character recognition based android application for business card scanner
+                                            </th>
                                             <th>Mr. Musheer Ahmad</th>
                                         </tr>
                                         <tr>
@@ -538,8 +538,8 @@
                                             <th>13BSS0012</br>13BSS0050</th>
                                             <th>Amit Jindal
                                                 <br>Mohd. Faizan</th>
-                                            <th>Detection of acute leukemia using white blood cells segmentation based on blood
-                                                samples</th>
+                                            <th>Detection of acute leukemia using white blood cells segmentation based on blood samples
+                                            </th>
                                             <th>Dr. Mohd. Amjad</th>
                                         </tr>
                                         <tr>
@@ -649,7 +649,130 @@
                                         </tr>
                                     </table>
                                 </div>
+                            
+                            </div>
+                            <div class="col-md-2">
+                                <div class="sidebar-widget">
+                                    <div class="single-sidebar-widget" style="padding-left:30px;">
+                                        <h4 class="title">Projects</h4>
+                                        <style>
+                                            .recent-text h3 a {
+                                                color: #046b09;
+                                                padding: 5px;
+                                                cursor: pointer;
+                                            }
+                            
+                                            .recent-text h5 a {
+                                                color: #667067;
+                                                margin: 5px;
+                                                cursor: pointer;
+                                            }
+                            
+                                            hr {
+                                                margin: 2px;
+                                                width: 100%;
+                                                color: #046b09;
+                                                height: 10px;
+                            
+                                                border: 0;
+                                                box-shadow: 0 10px 10px -10px #8c8b8b inset;
+                                            }
+                            
+                                            .recent-content-item {
+                                                margin-bottom: 2px;
+                                                padding-bottom: 0px;
+                                            }
+                                        </style>
+                                        <script>
+                                            function myFunction1(contentId) {
+                                                var arr = document.getElementsByClassName("sem1");
+                                                for (var i = 0; i < arr.length; i++) {
+                                                    arr[i].style.display = "none";
+                                                }
+                                                var x = document.getElementById(contentId);
+                                                console.log(contentId);
 
+                                                contentId.style.display = "block";
+                                            }
+
+                                            function myFunction(contentId) {
+                                                var arr = document.getElementsByClassName("sem");
+                                                for (var i = 0; i < arr.length; i++) {
+                                                    arr[i].style.display = "none";
+                                                }
+                                                var x = document.getElementById(contentId);
+                                                console.log(contentId);
+
+                                                contentId.style.display = "block";
+                                            }
+
+                                        </script>
+                                        <div class="recent-content">
+                                            <div class="recent-content-item">
+                                                <div class="recent-text">
+                                                    <h3>
+                                                        <a onclick="myFunction1(l2); myFunction(bs1)">2018 -19</a>
+                                                    </h3>
+                                                    <hr>
+                                                    <div style="padding-left:20px;" class="sem1" id="l2">
+                                                        <h5>
+                                                            <a onclick="myFunction(bs1)">Major</a>
+                                                        </h5>
+                                                        <hr>
+                                                        <h5>
+                                                            <a onclick="myFunction(bs2)">Minor</a>
+                                                        </h5>
+                                                        <hr>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                            <div class="recent-content-item">
+                                                <div class="recent-text">
+                                                    <h3>
+                                                        <a onclick="myFunction1(l3); myFunction(ms1)">2017 - 18</a>
+                                                    </h3>
+                                                    <hr>
+                                                    <div style="padding-left:20px; display:none;" class="sem1" id="l3">
+                                                        <h5>
+                                                            <a onclick="myFunction(ms1)">Major</a>
+                                                        </h5>
+                                                        <hr>
+                                                        <h5>
+                                                            <a onclick="myFunction(ms2)">Minor</a>
+                                                        </h5>
+                                                        <hr>
+                            
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                            <div class="recent-content-item">
+                                                <div class="recent-text">
+                                                    <h3>
+                                                        <a onclick="myFunction1(l1); myFunction(bes1)">2016 - 17</a>
+                                                    </h3>
+                                                    <hr>
+                                                    <div style="padding-left:20px; display:none;" class="sem1" id="l1">
+                                                        <h5>
+                                                            <a onclick="myFunction(bes1)">Major</a>
+                                                        </h5>
+                                                        <hr>
+                                                        <h5>
+                                                            <a onclick="myFunction(bes2)">Minor</a>
+                                                        </h5>
+                                                        <hr>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                            
+                                        </div>
+                            
+                                    </div>
+                            
+                                </div>
                             </div>
 
                         </div>
