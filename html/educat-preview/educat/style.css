@@ -2646,7 +2646,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: -10px;
   position: relative;
-  top: 30px;
+  top: 20px;
   color: white;
   font-size: 3em;
 }
@@ -2657,7 +2657,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: 10px;
   position: relative;
-  top: 35px;
+  top: 20px;
   color: white;
   font-size: 3em;
 }
@@ -2679,7 +2679,8 @@ span.c-text {display: inline-block;}
 }
 
 .quotation1{
-  font-size: .95em;
+  font-size: 1.01em;
+  font-weight: 1000;
   margin: 0 auto;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 10px 20px;
@@ -2693,7 +2694,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: -10px;
   position: relative;
-  top: 30px;
+  top: 20px;
   color: #046b09;
   font-size: 3em;
 }
@@ -2704,7 +2705,7 @@ span.c-text {display: inline-block;}
   line-height: 0;
   left: 10px;
   position: relative;
-  top: 35px;
+  top: 20px;
   color: #046b09;
   font-size: 3em;
 }
