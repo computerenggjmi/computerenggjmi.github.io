@@ -2024,6 +2024,22 @@ span.comment-time {padding-right: 3px; position: relative;}
     background: rgba(0, 0, 0, 0) url("img/people.jpg") no-repeat scroll 0 0;
     background-size: cover;
 }
+.phdscolar-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/phd.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+.researcharea-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/researcharea.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+.project-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/project.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
+.placement-breadcrumb {
+    background: rgba(0, 0, 0, 0) url("img/placement.jpg") no-repeat scroll 0 0;
+    background-size: cover;
+}
 
 .breadcrumb-banner-area.fixed-bg {background: url("img/3.jpg") no-repeat fixed top center / cover}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
