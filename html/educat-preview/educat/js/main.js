@@ -94,63 +94,8 @@
         ]
     });
     
-/*------------------------------------
-	Textilate Activation
---------------------------------------*/
-    $('.tlt').textillate({
-        loop: true,
-        minDisplayTime: 2500
-    });
-    
-/*------------------------------------
-	Video Player
---------------------------------------*/
-    $(".player").YTPlayer({
-        showControls: false
-    });    
-    
-    $(".player-small").YTPlayer({
-        showControls: false
-    });
+
    
-/*------------------------------------
-	MailChimp
---------------------------------------*/
-    $('#mc-form').ajaxChimp({
-        language: 'en',
-        callback: mailChimpResponse,
-        // ADD YOUR MAILCHIMP URL BELOW HERE!
-        url: 'http://themeshaven.us8.list-manage.com/subscribe/post?u=759ce8a8f4f1037e021ba2922&amp;id=a2452237f8'
-    });
-    
-    function mailChimpResponse(resp) {
-        
-        if (resp.result === 'success') {
-            $('.mailchimp-success').html('' + resp.msg).fadeIn(900);
-            $('.mailchimp-error').fadeOut(400);
-            
-        } else if(resp.result === 'error') {
-            $('.mailchimp-error').html('' + resp.msg).fadeIn(900);
-        }  
-    }
-    
-/*------------------------------------
-	ColorSwitcher
---------------------------------------*/
-    $('.ec-handle').on('click', function(){
-        $('.ec-colorswitcher').trigger('click')
-        $(this).toggleClass('btnclose');
-        $('.ec-colorswitcher') .toggleClass('sidebarmain');
-        return false;
-    });
-    $('.ec-boxed,.pattren-wrap a,.background-wrap a').on('click', function(){
-        $('.as-mainwrapper').addClass('wrapper-boxed');
-        $('.as-mainwrapper').removeClass('wrapper-wide');
-    });
-    $('.ec-wide').on('click', function(){
-        $('.as-mainwrapper').addClass('wrapper-wide');
-        $('.as-mainwrapper').removeClass('wrapper-boxed');
-    });
-    
+
     
 })(jQuery); 
