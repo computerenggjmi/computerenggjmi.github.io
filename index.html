@@ -55,6 +55,7 @@
     <!-- Modernizr JS
 		============================================ -->
     <script src="html/educat-preview/educat/js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
 </head>
 
 <body>
@@ -683,7 +684,7 @@
             <!--End of Event Area-->
             <!--Testimonial Area Start-->
 
-            <div class="testimonial-area" style="box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.75);">
+            <!-- <div class="testimonial-area" style="box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.75);">
 
                 <div class="container" >
 
@@ -756,7 +757,139 @@
                         </div>
                     </div>
                 </div>
+            </div> -->
+            <style>
+                
+                .newtestimonial{
+                    background-color: #046b09;
+                    margin: 30px 0px 50px 0px;
+                }
+
+
+                .newtestimonial-single{
+                    margin: 30px;
+                }
+
+                .details{
+                    padding: 5px;
+                }
+
+                .photo{
+                    padding: 5px;
+                    align-content: center;
+                    
+                }
+
+                .photo > img{
+                    height: 170px;
+                    width: 130px;
+                    text-align: center;
+                }
+
+                .personal-details > h4, h5{
+                    color: white;    
+                    text-align: center;
+                    padding-top: 5px;
+                }
+
+                .content-details{
+                    /* padding-top:10px;  */
+                    color: white;
+                    /* font-weight: bolder; */
+                }
+            
+            
+            </style>
+            <!-- <div class="newsletter-area testimonial-header">
+                
+            </div> -->
+            <div class="col newtestimonial">
+
+                <div class="newtestimonial-single">
+                    <div class="row newtestimonial-content">
+                
+                        <div class="col-md-3 details">
+                            <div class="photo">
+                                <img src="html/educat-preview/educat/img/testimonial/najeeb.jpg" class="img-circle img-responsive" alt="">
+                            </div>
+                            <div class="personal-details">
+                                <h4>Najeeb Khan</h4>
+                                <h5>2018-19</h5>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-9">
+                            <div class="content-details">
+                                <p>
+                                     My undergrad at Department of Computer Engineering, Jamia Millia Islamia has been nothing short of an insightful experience.
+                                    The department provided me with a platform where I learned something new every day and helped me foster an environment of
+                                    technological collaboration. It symbolised a point of stress in my life which head-started me onto a trajectory of innovation
+                                    and creation. I would like to thank my fellow peers, my professors and the staff at the department for providing me unparalleled
+                                    support, infrastructure and a plethora of opportunities that have helped me to excel in my career into the field of Computer
+                                    Sciences.
+                                </p>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+
+                <div class="newtestimonial-single">
+                    <div class="row newtestimonial-content">
+                
+                        <div class="col-md-3 details">
+                            <div class="photo">
+                                <img src="html/educat-preview/educat/img/testimonial/maria.jpg" class="img-circle img-responsive" alt="">
+                            </div>
+                            <div class="personal-details">
+                                <h4>Maria</h4>
+                                <h5>2018-19</h5>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-9">
+                            <div class="content-details">
+                                <p>
+                                     It was an honor to be a student of Jamia Millia Islamia, and to graduate as a computer engineer with a job in my hand. I
+                                    appreciate all the faculty and staff members at JMI who have taken the time and made the effort to teach me, and to help
+                                    me develop my professional career. JMI has the highest standards of lectures by supportive and experienced professors, a
+                                    friendly environment and highly computed labs. My knowledge considerably expanded in M.Tech and it encouraged me to obtain
+                                    my PhD in the impending future.
+                                </p>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+
+                <div class="newtestimonial-single">
+                    <div class="row newtestimonial-content">
+                
+                        <div class="col-md-3 details">
+                            <div class="photo">
+                                <img src="html/educat-preview/educat/img/testimonial/aisha.jpg" class="img-circle img-responsive" alt="">
+                            </div>
+                            <div class="personal-details">
+                                <h4>Aisha Aijaj</h4>
+                                <h5>2018-19</h5>
+                            </div>
+                        </div>
+                
+                        <div class="col-md-9">
+                            <div class="content-details">
+                                <p>With some of the best equipment, dedicated libraries, placement opportunities, workshops, and techno-cultural fests, the
+                                Computer Science department of Jamia Millia Islamia has been an excellent form of exposure for me. I have had the pleasure
+                                of studying under and working with eminent professors who have relentlessly assisted me in my research and project works.
+                                The campus is beautiful and the atmosphere is always inviting.
+                                </p>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+
             </div>
+
             <!--End of Testimonial Area-->
             <!--Newsletter Area Start-->
             <div class="newsletter-area">
@@ -920,6 +1053,46 @@
     <!-- main JS
 		============================================ -->
     <script src="html/educat-preview/educat/js/main.js"></script>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('.newtestimonial').slick({
+                    centerMode: true,
+                    centerPadding: '20px',
+                    slidesToShow: 1,
+                    arrows: false,
+                    responsive: [
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 3
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                arrows: false,
+                                centerMode: true,
+                                centerPadding: '40px',
+                                slidesToShow: 1
+                            }
+                        }
+                    ],
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                });
+            });
+        </script>
+
+
 </body>
 
 </html>
