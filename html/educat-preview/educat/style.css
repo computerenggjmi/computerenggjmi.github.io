@@ -465,6 +465,7 @@ body {
     color: #2d3e50;
     display: block;
     padding: 5px 0;
+    font-weight: 1000;
 }
 .account-dropdown li {display: block;}
 /*----------------------------------------*/
@@ -508,10 +509,11 @@ body {
     position: relative;
 }
 .mainmenu ul#nav > li > a {
-    color: #2d3e50;
+    color: #2D3E50;
+    font-weight: 1000;
     display: block;
     font-family: "montserratregular";
-    font-size: 12px;
+    font-size: 14px;
     line-height: 109px;
     text-decoration: none;
     text-transform: uppercase;
