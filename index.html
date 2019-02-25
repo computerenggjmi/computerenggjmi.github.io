@@ -304,23 +304,37 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" style="z-index:2;">
                         <div class="item active">
-                            <img src="html/educat-preview/educat/img/slide2.jpg" style="z-index:2; height:55vh; width:100%;">
+                            <img src="html/educat-preview/educat/img/slide2.jpg" style="z-index:2; width:100%;">
                         </div>
 
                         <div class="item">
-                            <img src="html/educat-preview/educat/img/slide1.jpg" style="z-index:2; height:55vh; width:100%;">
+                            <img src="html/educat-preview/educat/img/slide1.jpg" style="z-index:2; width:100%;">
                         </div>
 
                         <div class="item">
-                            <img src="html/educat-preview/educat/img/slide3.jpg" style="z-index:2; height:55vh; width:100%;">
+                            <img src="html/educat-preview/educat/img/slide3.jpg" style="z-index:2; width:100%;">
                         </div>
                         <div class="item ">
-                            <img src="html/educat-preview/educat/img/slide4.jpg" style="z-index:2; height:55vh; width:100%;">
+                            <img src="html/educat-preview/educat/img/slide4.jpg" style="z-index:2; width:100%;">
                         </div>
                         <div class="item">
-                            <img src="html/educat-preview/educat/img/slide5.jpg" style="z-index:2; height:55vh; width:100%;">
+                            <img src="html/educat-preview/educat/img/slide5.jpg" style="z-index:2; width:100%;">
                         </div>
                     </div>
+
+
+                    <style>
+
+                        .item > img{
+                            height: 70vh;
+                        }
+
+                        @media only screen and (max-width: 600px) {
+                            .item >img{
+                                height: 40vh;
+                            }
+                        }
+                    </style>
 
                     <!-- Left and right controls -->
                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -374,7 +388,8 @@
                     
                         <div class="single-achivement-content">
                             <p>
-                                Abhinav Rai, 4th Year Computer Engineering and his team under the Mentorship of their faculty members Mr. M Zeeshan Ansari and Mr. Faiyaz Ahmad, proposed an outstanding solution for the problem of ever-increasing UAVs (Unmanned Aerial Vehicles)
+                                Abhinav Rai, 4th Year Computer Engineering and his team under the Mentorship of their faculty members Mr. M Zeeshan Ansari and Mr. Faiyaz Ahmad, proposed an outstanding solution for the problem of ever-increasing 
+                                <!-- UAVs (Unmanned Aerial Vehicles) -->
                                 <!-- 
                                 that may cause troubles in air traffic. This problem was given in the Smart India Hackathon - 2017 by the Ministry of Civil
                                 Aviation. The team was all India winner at Smart India Hackathon – 2017 and was awarded prize of 1 Lakh Rupees. -->
@@ -420,7 +435,7 @@
             <style>
             
                 .achivements{
-                    height: 30vh;
+                    height: 40vh;
                     padding:0px; 
                     margin: 0px;
 
@@ -428,12 +443,12 @@
 
                 .main-achivement-heading{
                     background-color: #046b09;
-                    height: 30vh;
+                    height: 40vh;
                     /* width: 100%; */
                 }
 
                 .main-achivement-heading > h2 {
-                    padding: 30% 0px; 
+                    padding: 10% 0px; 
                 }
 
                 .main-achivement-heading > h2 > span{
@@ -447,13 +462,13 @@
                 }
 
                 .main-achivement-content{
-                    height: 30vh;
+                    height: 40vh;
                     margin: 0px 0px;
                     background-color: #eae7e7;
                 }
 
                 .single-achivement{
-                    padding:30px 20px;
+                    padding:10px 20px;
                 }
 
                 .single-achivement-heading > h4{
@@ -466,7 +481,32 @@
                     /* border-right: 2px solid #046b09; */
                 }
 
-                
+                @media only screen and (max-width: 600px) {
+                    .achivements{
+                        height: 70vh;
+                        width: 100%;
+                    }
+
+                    .main-achivement-heading{
+                        background-color: #046b09;
+                        height: 70vh;
+                        /* width: 100%; */
+                        display: none;
+                    }
+
+                    .main-achivement-content{
+                        height: 70vh;
+                        padding:0px;
+                        margin: 0px;
+                        width: 100%;
+                    }
+
+                    .single-achivement{
+                        padding:30px ;
+                        margin: 5px;
+                        width: 100%;
+                    }
+                }
             
             </style>
 
@@ -733,127 +773,133 @@
                         
                     </div>
                     
-                    <div class="row single-update">
-                        <div class="col-md-2 update-image">
-                            <a href="event.html">
-                                <img src="html/educat-preview/educat/img/event/e9.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="event.html">Workshop on iOS App Development</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>21 November, 2018</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>Room No. 328, FET, JMI</span>
+                    <div class="newsandevents">
+
+                        <div class="row single-update">
+                            <div class="col-md-2 update-image">
+                                <a href="event.html">
+                                    <img src="html/educat-preview/educat/img/event/e9.jpg" alt="">
+                                </a>
                             </div>
-                            
-                        </div>
-                    </div>
-                    <div class="row single-update">
-                        <div class="col-md-2 update-image">
-                            <a href="event.html">
-                                <img src="html/educat-preview/educat/img/event/e8.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="event.html">Omnicron 2018 : Online Coding Competition</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>04 October, 2018</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>online : <a href="http://hackerrank.com/omnicron-2018">http://hackerrank.com/omnicron-2018</a></span>
+                            <div class="col-md-10 update-details">
+                                <h4>
+                                    <a href="event.html">Workshop on iOS App Development</a>
+                                </h4>
+                                <div class="single-item-comment-view">
+                                    <span>
+                                        <i class="zmdi zmdi-time"></i>21 November, 2018</span>
+                                    <span>
+                                        <i class="zmdi zmdi-pin"></i>Room No. 328, FET, JMI</span>
+                                </div>
+                        
                             </div>
-                            <!-- <p>The 4th HPCAC-ISC Student Cluster Competition was held in Frankfurt, Germany, where more than 2,600 attendees
-                                                    and 160 exhibitors from around the globe met in an opportunity....</p> -->
                         </div>
-                    </div>
-                    <div class="row single-update">
-                        <div class="col-md-2 update-image">
-                            <a href="event.html">
-                                <img src="html/educat-preview/educat/img/event/e11.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="event.html">Open Mic Competition</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>27th September, 2018</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>Room No. 328, FET, JMI</span>
+                        <div class="row single-update">
+                            <div class="col-md-2 update-image">
+                                <a href="event.html">
+                                    <img src="html/educat-preview/educat/img/event/e8.jpg" alt="">
+                                </a>
                             </div>
-                            <!-- <p>It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia
-                                                                        at Dr M A Ansari Auditorium.....
-                                                                    </p> -->
-                        </div>
-                    </div>
-                    <div class="row single-update">
-                        <div class="col-md-2 update-image">
-                            <a href="event.html">
-                                <img src="html/educat-preview/educat/img/event/4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="event.html">JMI Honours Hotmail Founder Sabeer Bhatia</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>11 am | 7th February, 2018</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>Dr M A Ansari Auditorium, Jamia Millia Islamia</span>
+                            <div class="col-md-10 update-details">
+                                <h4>
+                                    <a href="event.html">Omnicron 2018 : Online Coding Competition</a>
+                                </h4>
+                                <div class="single-item-comment-view">
+                                    <span>
+                                        <i class="zmdi zmdi-time"></i>04 October, 2018</span>
+                                    <span>
+                                        <i class="zmdi zmdi-pin"></i>online :
+                                        <a href="http://hackerrank.com/omnicron-2018">http://hackerrank.com/omnicron-2018</a>
+                                    </span>
+                                </div>
+                                <!-- <p>The 4th HPCAC-ISC Student Cluster Competition was held in Frankfurt, Germany, where more than 2,600 attendees
+                                                                            and 160 exhibitors from around the globe met in an opportunity....</p> -->
                             </div>
-                            <!-- <p>It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia
-                                at Dr M A Ansari Auditorium.....
-                            </p> -->
                         </div>
-                    </div>
-                    <div class="row single-update" >
-                        <div class="col-md-2 update-image">
-                            <a href="event.html">
-                                <img src="html/educat-preview/educat/img/event/2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="event.html">JMI Endeavour Remarkably in Smart India Hackthon, 2017</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>2nd April, 2017</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>Civil Aviation Training College (CATC), Allahabad</span>
+                        <div class="row single-update">
+                            <div class="col-md-2 update-image">
+                                <a href="event.html">
+                                    <img src="html/educat-preview/educat/img/event/e11.jpg" alt="">
+                                </a>
                             </div>
-                            <!-- <p>
-                                <strong>Team Navpravartak</strong> from Department of Computer Engineering, Jamia Millia Islamia was declared
-                                the winner of “Smart India Hackathon - 2017”....</p> -->
-                        </div>
-                    </div>
-                    <div class="row single-update">
-                        <div class="col-md-2 update-image">
-                            <a href="event.html">
-                                <img src="html/educat-preview/educat/img/event/1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="col-md-10 update-details">
-                            <h4>
-                                <a href="event.html">4th HPCAC-ISC STUDENT CLUSTER COMPETITION 2015</a>
-                            </h4>
-                            <div class="single-item-comment-view">
-                                <span>
-                                    <i class="zmdi zmdi-time"></i>11-15 July, 2015</span>
-                                <span>
-                                    <i class="zmdi zmdi-pin"></i>Frankfurt, Germany</span>
+                            <div class="col-md-10 update-details">
+                                <h4>
+                                    <a href="event.html">Open Mic Competition</a>
+                                </h4>
+                                <div class="single-item-comment-view">
+                                    <span>
+                                        <i class="zmdi zmdi-time"></i>27th September, 2018</span>
+                                    <span>
+                                        <i class="zmdi zmdi-pin"></i>Room No. 328, FET, JMI</span>
+                                </div>
+                                <!-- <p>It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia
+                                                                                                at Dr M A Ansari Auditorium.....
+                                                                                            </p> -->
                             </div>
-                            <!-- <p>The 4th HPCAC-ISC Student Cluster Competition was held in Frankfurt, Germany, where more than 2,600 attendees
-                                and 160 exhibitors from around the globe met in an opportunity....</p> -->
                         </div>
+                        <div class="row single-update">
+                            <div class="col-md-2 update-image">
+                                <a href="event.html">
+                                    <img src="html/educat-preview/educat/img/event/4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-10 update-details">
+                                <h4>
+                                    <a href="event.html">JMI Honours Hotmail Founder Sabeer Bhatia</a>
+                                </h4>
+                                <div class="single-item-comment-view">
+                                    <span>
+                                        <i class="zmdi zmdi-time"></i>11 am | 7th February, 2018</span>
+                                    <span>
+                                        <i class="zmdi zmdi-pin"></i>Dr M A Ansari Auditorium, Jamia Millia Islamia</span>
+                                </div>
+                                <!-- <p>It was an enterprising atmosphere at Jamia Millia Islamia, with the presence of Hotmail founder Sabeer Bhatia
+                                                        at Dr M A Ansari Auditorium.....
+                                                    </p> -->
+                            </div>
+                        </div>
+                        <div class="row single-update">
+                            <div class="col-md-2 update-image">
+                                <a href="event.html">
+                                    <img src="html/educat-preview/educat/img/event/2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-10 update-details">
+                                <h4>
+                                    <a href="event.html">JMI Endeavour Remarkably in Smart India Hackthon, 2017</a>
+                                </h4>
+                                <div class="single-item-comment-view">
+                                    <span>
+                                        <i class="zmdi zmdi-time"></i>2nd April, 2017</span>
+                                    <span>
+                                        <i class="zmdi zmdi-pin"></i>Civil Aviation Training College (CATC), Allahabad</span>
+                                </div>
+                                <!-- <p>
+                                                        <strong>Team Navpravartak</strong> from Department of Computer Engineering, Jamia Millia Islamia was declared
+                                                        the winner of “Smart India Hackathon - 2017”....</p> -->
+                            </div>
+                        </div>
+                        <div class="row single-update">
+                            <div class="col-md-2 update-image">
+                                <a href="event.html">
+                                    <img src="html/educat-preview/educat/img/event/1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div class="col-md-10 update-details">
+                                <h4>
+                                    <a href="event.html">4th HPCAC-ISC STUDENT CLUSTER COMPETITION 2015</a>
+                                </h4>
+                                <div class="single-item-comment-view">
+                                    <span>
+                                        <i class="zmdi zmdi-time"></i>11-15 July, 2015</span>
+                                    <span>
+                                        <i class="zmdi zmdi-pin"></i>Frankfurt, Germany</span>
+                                </div>
+                                <!-- <p>The 4th HPCAC-ISC Student Cluster Competition was held in Frankfurt, Germany, where more than 2,600 attendees
+                                                        and 160 exhibitors from around the globe met in an opportunity....</p> -->
+                            </div>
+                        </div>
+
                     </div>
                 </div>
                 <div class="col-md-3 placement">
@@ -1398,6 +1444,8 @@
                 });
             });
         </script>
+
+        
 
 
 </body>
