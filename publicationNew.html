@@ -331,7 +331,7 @@
                         data.get().map(_=>{ return (`
                         <div class="p-4 border">
                             <div class="flex justify-between items-center m-2">
-                                <div class="font-bold">
+                                <div>
                                     ${_.session}
                                 </div>
                                 <div class="${!_.impact_factor?'hidden':''}">
@@ -344,7 +344,7 @@
                                     ${getHighlightText(_.description)}
 
                                 </div>
-                                <div class=" text-sm" style="color:#046b09;">
+                                <div class="text-gray-700 text-sm">
                                     ${getHighlightText(_.journal_papers_details)}
                                 </div>
                             </div>
