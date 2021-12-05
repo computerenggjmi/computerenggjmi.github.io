@@ -92,6 +92,9 @@
     <!-- Modernizr JS
 		============================================ -->
     <script src="html/educat-preview/educat/js/vendor/modernizr-2.8.3.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/gh/alhaqhassan/izzi.js@master/dist/izzi.min.js"></script>
   </head>
 
   <body>
@@ -434,7 +437,7 @@
                 </div>
                 <div
                   class="event-details-content sem"
-                  id="e5"
+                  id="e6"
                   style="background-color:rgb(216, 216, 216);display:none;"
                 >
                   <style>
@@ -447,204 +450,296 @@
                     class="col-md-12"
                     style="background-color:#046b09; color:white; padding:20px; text-align:center;"
                   >
-                    <h2>B. Tech. Batch 2018</h2>
+                    <h2>B. Tech. Batch 2021</h2>
                   </div>
-                  <div class="single-event-item">
-                    <table class="table">
-                      <!-- <colgroup span="2"></colgroup>
-                                                                        <colgroup span="2"></colgroup> -->
-                      <thead class="header theader">
-                        <th rowspan="2" colspan="1">Company Name</th>
-                        <th rowspan="2" colspan="1">Package(LPA)</th>
-                        <th rowspan="2" colspan="2">
+                  <div class="single-event-item" id="app">
+
+
+                    <div class="table ">
+                      <div class="grid-cols-3 grid header theader p-3" style="border-bottom: 2px solid rgb(231, 231, 231);">
+                        <div class="text-left">Company Name</div>
+                        <div class="text-left">Package(LPA)</div>
+                        <div class="text-left">
                           Number Of Students Placed
-                        </th>
-                      </thead>
+                        </div>
+                      </div>
 
-                      <tbody>
-                        <tr>
-                          <td>HSBC Software Development India Pvt. Ltd.</td>
-                          <td>7.00/12.00</td>
-                          <td>7</td>
-                        </tr>
+                      <div>
+                        <izzi>
+                          placement2021.sort((a,b)=>b.ctc-a.ctc).map(student=>{
+                            return(`
+                            <div class="grid-cols-3 grid p-3" style="border-bottom: 2px solid rgb(231, 231, 231);">
+                                <div>${student.company}</div>
+                                <div>${student.ctc}</div>
+                                <div>${student.studentCount}</div>
+                            </div>
+                            `)
+                          })
 
-                        <tr>
-                          <td>Tata Consultancy Services(TCS)</td>
-                          <td>3.50</td>
-                          <td>8</td>
-                        </tr>
+                        </izzi>
+                      </div>
+                    </div>
 
-                        <tr>
-                          <td>Wipro</td>
-                          <td>3.30</td>
-                          <td>4</td>
-                        </tr>
 
-                        <!-- <tr>
-                                                <td>Payu</td>
-                                                <td>10.75</td>
-                                                <td>2</td>
-                                            </tr> -->
 
-                        <tr>
-                          <td>Zillious</td>
-                          <td>7.00</td>
-                          <td>2</td>
-                        </tr>
 
-                        <tr>
-                          <td>Libsys Limited</td>
-                          <td>8.00</td>
-                          <td>2</td>
-                        </tr>
-
-                        <!-- <tr>
-                                                <td>Opera Solutions</td>
-                                                <td>4.00</td>
-                                                <td>6</td>
-                                            </tr> -->
-
-                        <!-- <tr>
-                                                <td>Opera</td>
-                                                <td>4.00</td>
-                                                <td>7</td>
-                                            </tr> -->
-
-                        <!-- <tr>
-                                                <td>Info Edge India Limited</td>
-                                                <td>6.30</td>
-                                                <td>5</td>
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td>Unisys Limited</td>
-                                                <td>6.03</td>
-                                                <td>4</td>
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td>Tolexo</td>
-                                                <td>5.00</td>
-                                                <td>7</td>
-                                            </tr> -->
-
-                        <!-- <tr>
-                                                <td>Capital IQ</td>
-                                                <td>5.90</td>
-                                                <td>4</td>
-                                            </tr> -->
-
-                        <tr>
-                          <td>Newgen Software Technologies</td>
-                          <td>6.20</td>
-                          <td>2</td>
-                        </tr>
-
-                        <tr>
-                          <td>NEC Technologies</td>
-                          <td>4.00</td>
-                          <td>1</td>
-                        </tr>
-
-                        <!-- <tr>
-                                                <td>Mroads</td>
-                                                <td>5.00</td>
-                                                <td>3</td>
-                                            </tr>
-                                            
-                                            <tr>
-                                                <td>Bluegape</td>
-                                                <td>5.50</td>
-                                                <td>1</td>
-                                            </tr> -->
-
-                        <tr>
-                          <td>Global Logic</td>
-                          <td>4.50</td>
-                          <td>5</td>
-                        </tr>
-
-                        <tr>
-                          <td>Mahindra Conviva</td>
-                          <td>6.63</td>
-                          <td>4</td>
-                        </tr>
-
-                        <tr>
-                          <td>Think Future Technologies Pvt. Ltd.</td>
-                          <td>6.00</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>NPCL</td>
-                          <td>5.00</td>
-                          <td>3</td>
-                        </tr>
-
-                        <tr>
-                          <td>Nedu Technologies</td>
-                          <td>6.50</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Samsung</td>
-                          <td>8.80</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Samsung R&D</td>
-                          <td>8.80</td>
-                          <td>3</td>
-                        </tr>
-
-                        <tr>
-                          <td>EXL Analytics</td>
-                          <td>6.00</td>
-                          <td>3</td>
-                        </tr>
-
-                        <tr>
-                          <td>VIZ Experts</td>
-                          <td>6.00</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Tejas Networks Ltd.</td>
-                          <td>6.50</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Xceedance</td>
-                          <td>3.15</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Microsoft</td>
-                          <td>35.00</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Provakil</td>
-                          <td>3.50</td>
-                          <td>1</td>
-                        </tr>
-
-                        <tr>
-                          <td>Adobe Systems</td>
-                          <td>11.00</td>
-                          <td>1</td>
-                        </tr>
-                      </tbody>
-                    </table>
                   </div>
                 </div>
+<script>
+  let placement2021 = [
+  {
+    "company": "TCS Ninja",
+    "ctc": 3.36,
+    "studentCount": 5
+  },
+  {
+    "company": "TCS Digital",
+    "ctc": 7,
+    "studentCount": 4
+  },
+  {
+    "company": "IBM",
+    "ctc": 4.5,
+    "studentCount": 8
+  },
+  {
+    "company": "Wipro",
+    "ctc": 3.5,
+    "studentCount": 9
+  },
+  {
+    "company": "ZS Associates",
+    "ctc": 9,
+    "studentCount": 2
+  },
+  {
+    "company": "EXL Services",
+    "ctc": 6,
+    "studentCount": 8
+  },
+  {
+    "company": "Infoedge",
+    "ctc": 12.5,
+    "studentCount": 4
+  },
+  {
+    "company": "Josh Technology Group",
+    "ctc": 9,
+    "studentCount": 2
+  },
+  {
+    "company": "Optum - UHG",
+    "ctc": 15.39,
+    "studentCount": 4
+  },
+  {
+    "company": "Accenture",
+    "ctc": 9.96,
+    "studentCount": 6
+  },
+  {
+    "company": "Incedo",
+    "ctc": 5,
+    "studentCount": 1
+  },
+  {
+    "company": "Decimal Technologies",
+    "ctc": 4.5,
+    "studentCount": 1
+  },
+  {
+    "company": "Think Future Technology",
+    "ctc": 5.5,
+    "studentCount": 1
+  },
+  {
+    "company": "Pure Software",
+    "ctc": 8,
+    "studentCount": 2
+  },
+  {
+    "company": "Delhivery",
+    "ctc": 8,
+    "studentCount": 5
+  },
+  {
+    "company": "Publicis Sapient",
+    "ctc": 10,
+    "studentCount": 4
+  },
+  {
+    "company": "Unthinkable Solutions",
+    "ctc": 5,
+    "studentCount": 2
+  },
+  {
+    "company": "Larsen & Toubro",
+    "ctc": 6,
+    "studentCount": 1
+  }
+]
+let app = document.getElementById('app')
+init(app)
+</script>
+                <div
+                class="event-details-content sem"
+                id="e5"
+                style="background-color:rgb(216, 216, 216);display:none;"
+              >
+                <style>
+                  .list-group-item {
+                    background-color: rgb(239, 238, 238);
+                    font-size: 0.85em;
+                  }
+                </style>
+                <div
+                  class="col-md-12"
+                  style="background-color:#046b09; color:white; padding:20px; text-align:center;"
+                >
+                  <h2>B. Tech. Batch 2018</h2>
+                </div>
+                <div class="single-event-item">
+                  <table class="table">
+                    <!-- <colgroup span="2"></colgroup>
+                                                                      <colgroup span="2"></colgroup> -->
+                    <thead class="header theader">
+                      <th rowspan="2" colspan="1">Company Name</th>
+                      <th rowspan="2" colspan="1">Package(LPA)</th>
+                      <th rowspan="2" colspan="2">
+                        Number Of Students Placed
+                      </th>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <td>HSBC Software Development India Pvt. Ltd.</td>
+                        <td>7.00/12.00</td>
+                        <td>7</td>
+                      </tr>
+
+                      <tr>
+                        <td>Tata Consultancy Services(TCS)</td>
+                        <td>3.50</td>
+                        <td>8</td>
+                      </tr>
+
+                      <tr>
+                        <td>Wipro</td>
+                        <td>3.30</td>
+                        <td>4</td>
+                      </tr>
+
+                      <tr>
+                        <td>Zillious</td>
+                        <td>7.00</td>
+                        <td>2</td>
+                      </tr>
+
+                      <tr>
+                        <td>Libsys Limited</td>
+                        <td>8.00</td>
+                        <td>2</td>
+                      </tr>
+
+                      <tr>
+                        <td>Newgen Software Technologies</td>
+                        <td>6.20</td>
+                        <td>2</td>
+                      </tr>
+
+                      <tr>
+                        <td>NEC Technologies</td>
+                        <td>4.00</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Global Logic</td>
+                        <td>4.50</td>
+                        <td>5</td>
+                      </tr>
+
+                      <tr>
+                        <td>Mahindra Conviva</td>
+                        <td>6.63</td>
+                        <td>4</td>
+                      </tr>
+
+                      <tr>
+                        <td>Think Future Technologies Pvt. Ltd.</td>
+                        <td>6.00</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>NPCL</td>
+                        <td>5.00</td>
+                        <td>3</td>
+                      </tr>
+
+                      <tr>
+                        <td>Nedu Technologies</td>
+                        <td>6.50</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Samsung</td>
+                        <td>8.80</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Samsung R&D</td>
+                        <td>8.80</td>
+                        <td>3</td>
+                      </tr>
+
+                      <tr>
+                        <td>EXL Analytics</td>
+                        <td>6.00</td>
+                        <td>3</td>
+                      </tr>
+
+                      <tr>
+                        <td>VIZ Experts</td>
+                        <td>6.00</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Tejas Networks Ltd.</td>
+                        <td>6.50</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Xceedance</td>
+                        <td>3.15</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Microsoft</td>
+                        <td>35.00</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Provakil</td>
+                        <td>3.50</td>
+                        <td>1</td>
+                      </tr>
+
+                      <tr>
+                        <td>Adobe Systems</td>
+                        <td>11.00</td>
+                        <td>1</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
                 <div
                   class="event-details-content sem"
                   id="e2"
@@ -1013,6 +1108,16 @@
                         }
                       </style>
 
+                      <div class="recent-content-item">
+                        <div class="recent-text" style="text-align: center;">
+                          <h3 style="color:#046b09;">
+                            <a href="#" onclick="myFunction(e6)"
+                              >B. Tech. 2021</a
+                            >
+                          </h3>
+                          <hr />
+                        </div>
+                      </div>
                       <div class="recent-content-item">
                         <div class="recent-text" style="text-align: center;">
                           <h3 style="color:#046b09;">
