@@ -1,0 +1,31 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700;800&family=Poppins:wght@100;200;400;500;600;700;800&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  width: 100%;
+}
+@layer base {
+  :root {
+    --green-light: #e4fce5;
+    --green-deep: #046b09;
+    --green-yellow: #1caa23;
+    --dark-black: #020202;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green-deep);
+  border-radius: 2px;
+}
+
+#custom-scrollbar {
+  scrollbar-color: var(--green-deep) var(--green-light);
+}

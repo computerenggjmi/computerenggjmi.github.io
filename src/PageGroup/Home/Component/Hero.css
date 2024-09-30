@@ -1,0 +1,96 @@
+section.hero {
+    background: rgb(4, 107, 9);
+    background: linear-gradient(270deg, rgba(4, 107, 9, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    height: 70vh;
+}
+.textboxhero{
+    top:-17vh;
+}
+
+div.flexcontainer {
+    font-size: 20px;
+    display: flex;
+    min-height: 150px;
+    /* font-size:15px; */
+    
+}
+
+div.columns {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div.lastcol {
+    flex: 2;
+    /* flex:content; */
+}
+
+div.columns:nth-of-type(odd) {
+    background: black;
+    color: white;
+}
+
+div.columns:nth-of-type(even) {
+    background: #046B09;
+    color: white;
+}
+.heroimg{
+    position: absolute;
+    top: 70px;
+    right: 0;
+    height: 50vh;
+    /* border: 3px solid #73AD21; */
+}
+
+.herotextchar{
+    color: #046b09
+}
+
+.posterImage{
+    /* margin-top: -50px; */
+    /* margin-left: 120px; */
+    margin: auto;
+    padding: 0%;
+    height: 40%;
+    max-height: 800px;
+    min-width: 80%;
+    max-width: 80%;
+    width: 75%;
+}
+
+.posterImage > img {
+    /* border-radius: 1.5rem; */
+    /* object-fit: contain; */
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .heroimg{
+        /* position: absolute; */
+        margin: auto;
+        height: 33vh;
+        opacity: 0.5;
+    }
+    .textboxhero{
+        top:0
+    }
+    div.flexcontainer {
+        flex-direction: column;
+    }
+
+    div.columns {
+        padding: 10px;
+    }
+    
+}
