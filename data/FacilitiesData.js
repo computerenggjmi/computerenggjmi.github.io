@@ -11,15 +11,15 @@ import a3 from "../images/Facilities/Computerlab2/3.jpeg";
 import a4 from "../images/Facilities/Computerlab2/4.jpeg";
 import a5 from "../images/Facilities/Computerlab2/5.jpg";
 //****************research lab ******************************
-import r1 from "../images/Facilities/ResearchLab/1.jpg";
-import r2 from "../images/Facilities/ResearchLab/2.jpg";
-import r3 from "../images/Facilities/ResearchLab/3.jpg";
-import r4 from "../images/Facilities/ResearchLab/4.jpg";
-import r5 from "../images/Facilities/ResearchLab/5.jpg";
+import r1 from "../images/Facilities/Researchlab/1.jpg";
+import r2 from "../images/Facilities/Researchlab/2.jpg";
+import r3 from "../images/Facilities/Researchlab/3.jpg";
+import r4 from "../images/Facilities/Researchlab/4.jpg";
+import r5 from "../images/Facilities/Researchlab/5.jpg";
 //****************hardware lab ******************************
-import h1 from "../images/Facilities/HardwareLab/1.jpeg";
-import h2 from "../images/Facilities/HardwareLab/2.jpeg";
-import h3 from "../images/Facilities/HardwareLab/3.jpeg";
+import h1 from "../images/Facilities/Hardwarelab/1.jpeg";
+import h2 from "../images/Facilities/Hardwarelab/2.jpeg";
+import h3 from "../images/Facilities/Hardwarelab/3.jpeg";
 //***************** advancecomputinglab **********************
 import ad1 from "../images/Facilities/AdvComputinglab/1.jpg";
 import ad2 from "../images/Facilities/AdvComputinglab/2.jpg";
