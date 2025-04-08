@@ -10,6 +10,7 @@ import omnicon from '../images/Events/omnicon 2018.jpg';
 import skill_campus from '../images/Events/skill_campus_2018.jpg';
 import ml_18 from '../images/Events/ml_2018.jpg';
 import audi_18 from '../images/Events/audi_2018.jpg';
+import Tech2023 from '../images/Events/Tech2023.png';
 
 const y2015 = [];
 const y2016= [];
@@ -76,14 +77,14 @@ const y2022 = [
 ];
 const y2023 = [
 {
-  "image": "",
+  "image": Tech2023,
   "desc": "The 2023-24 Tech Fest, to be held on 2nd March, is a celebration of innovation, technology, and creativity. It will feature a range of competitions, exhibitions, and workshops aimed at bringing together students and tech enthusiasts to showcase their talents and learn from industry experts. Join us for a day of hands-on experiences, cutting-edge demonstrations, and networking opportunities!",
   "date": "2nd March 2024",
   "venue": "FET Auditorium, Jamia Millia Islamia",
   "tagline": "2023-24 Tech Fest"
 },
   {
-  "image": "",
+  "image":ai_ml_workshop,
   "desc": "Join the 3-week Short Term Training Program on Artificial Intelligence & Machine Learning at Jamia Millia Islamia. The course covers lectures, hands-on sessions, and modules on AI, Python, Data Science, Machine Learning, and Deep Learning using Keras & Tensorflow.",
   "date": "4th July to 22nd July, 2023",
   "venue": "Department of Computer Engineering, Jamia Millia Islamia",

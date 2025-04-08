@@ -7,6 +7,16 @@ import bashirSirImg from "../src/PageGroup/About/assets/bashialam.jpg";
 import pdf from "../src/PageGroup/People/assets/dummy_pdf.pdf";
 import SarfarazSir from "../images/Faculty/Sarfaraz Sir.jpg";
 import FaiyazSir from "../images/Faculty/Faiyaz Sir.jpg";
+import Danishsir from "../images/Faculty/Danishsir.jpg";
+import jawaharsir from "../images/Faculty/jawaharsir.jpg";
+import Musheersir from "../images/Faculty/Musheersir.jpg";
+import Tanweersir from "../images/Faculty/Tanweersir.jpg";
+import firozsir from "../images/Faculty/firozsir.png";
+import shamimsir from "../images/Faculty/shamimsir.png";
+import hannansir from "../images/Faculty/hannansir.png";
+import waseemsir from "../images/Faculty/waseemsir.png";
+
+
 
 export const HOD = {  
     name: "Prof. Mohammad Amjad",
@@ -43,7 +53,7 @@ export const faculty_data = [
   },
   {
     name: "Prof. Tanvir Ahmad",
-    dp: "https://computerenggjmi.github.io/html/educat-preview/educat/img/team/1.jpg",
+    dp: Tanweersir,
     onclick: "id2",
     designation: "( Professor )",
     department:
@@ -75,7 +85,7 @@ export const faculty_data = [
   },
   {
     name: "Dr. Danish Raza Rizvi",
-    dp: "https://computerenggjmi.github.io/images/danishRizvi.png",
+    dp: Danishsir,
     onclick: "id4",
     designation: "( Assistant Professor )",
     department:
@@ -105,7 +115,7 @@ export const faculty_data = [
   },
   {
     name: "Dr. Musheer Ahmad",
-    dp: "https://computerenggjmi.github.io/images/musheerAhmad.png",
+    dp: Musheersir,
     onclick: "id9",
     designation: "( Assistant Professor )",
     department:
@@ -168,7 +178,7 @@ export const faculty_data = [
   },
   {
     name: "Mr. Jawahar Lal",
-    dp: "https://computerenggjmi.github.io/images/jawaharLal.png",
+    dp: jawaharsir,
     onclick: "id6",
     designation: "( Assistant Professor )",
     department:
@@ -183,9 +193,9 @@ export const faculty_data = [
   },
   {
     name: "Mr. Hannan Mansoor",
-    dp: "https://computerenggjmi.github.io/images/hannanMansoor.png",
+    dp: hannansir,
     onclick: "id14",
-    designation: "( Assistant Professor - Contractual )",
+    designation: "( Assistant Professor - Guest Faculty )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "",
@@ -196,7 +206,7 @@ export const faculty_data = [
   },
   {
     name: "Dr. Waseem Ahmed",
-    dp: "https://computerenggjmi.github.io/images/waseemAhmed.png",
+    dp: waseemsir,
     onclick: "id15",
     designation: "( Assistant Professor - Contractual )",
     department:
@@ -210,7 +220,7 @@ export const faculty_data = [
     name: "Dr. Nehal Ahmad",
     dp: nehalSirImg,
     onclick: "id13",
-    designation: "( Assistant Professor )",
+    designation: "( Assistant Professor - Contractual )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "9350850160",
@@ -218,10 +228,38 @@ export const faculty_data = [
     pdf: "",
     portfolio: "Professional Portfolio",
     areaOfIntrest:
-      "Machine Learning, Deep Learning, Optimization, Random Vector Functional Link Network,  Natural Language Processing, Applications of AI in Biomedical Domain, Web Mining and Searching",
+      "Machine Learning, Deep Learning, Optimization, Random Vector Functional Link Network,  Natural Language Processing, Applications of AI in Biomedical Domain",
     details:
       `Dr. Nehal Ahmad (Assistant Professor, Dept. of Computer Engineering JMI) obtained his undergraduate degree (Computer Engineering) from  Jamia Millia Islamia Central University New Delhi, India in the year 2016. He earned  M.S. (Gold Medalist) in the field of Machine Learning from the Department of Electrical Engineering and Computer Science, National Taipei  University of Technology, Taiwan with an "Award of Excellence" and prize money of 100$ (first rank in the department) in the year 2020. He was the recipient of Ministry of Education (MoE Fellow) Fellowship, Govt. of Taiwan for  the higher education in the country. Dr. Nehal earned his Ph.D. degree in the area of Machine learning (biomedical engineering domain) from National Taipei  University of Technology, Taiwan in collaboration with IIT Indore, India in the year 2023. He joined the department of Computer Engineering as an Assistant Professor in July 2024.
       Dr. Nehal bagged the "Best Paper Award" in an international CORE ranked “A” Conference "ICONIP-2022" with awarding prize of 400 $ . He has published his research articles in top quality reputed journals such as  IEEE  Journal of Biomedical and Health Informatics (Impact factor 7.021, earlier IEEE Transaction), Information Fusion (I.F = 18.6) etc.
       Dr. Nehal is also serving as a reviewer of several journals of repute. His current research interests include the area of Machine Learning, Deep Learning, Optimization, Random Vector Functional Link Network,  Natural Language Processing, Applications of AI in Biomedical Domain, Web Mining and Searching.`,
   },
+  {
+    name: "Dr. Firoj Ahamad",
+    dp: firozsir,
+    onclick: "id17",
+    designation: "( Assistant Professor - Contractual )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "7379474069",
+    email:`g.fahamad@jmi.ac.in`,
+    areaOfIntrest: "",
+    pdf: "https://jmi.ac.in/upload/employeeresume/g.fahamad.pdf",
+    details: "",
+  },
+  {
+    name: "Mr. Shamim Ahmad",
+    dp: shamimsir,
+    onclick: "id16",
+    designation: "( Assistant Professor - Guest Faculty )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "9643330447",
+    email:`sahmad33@jmi.ac.in`,
+    areaOfIntrest:
+      "",
+    pdf: "https://jmi.ac.in/upload/employeeresume/shamimahmad_ce.pdf",
+    details: "",
+  },
+ 
 ];

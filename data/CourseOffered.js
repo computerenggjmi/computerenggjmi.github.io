@@ -78,6 +78,7 @@ const PHD = {
   why: "Ph.D. in Computer Engineering is the doctoral degree programme tailored for academics cum research focused candidates. They are offered the opportunity to pursue theoretical and pragmatic research focussed on a topic of their interest. The doctoral programme of the Department of Computer Engineering, Ph.D. offers a plethora of possibilities for research-oriented students. Providing world-class facilities and a conducive environment to our scholars has been a priority for us, many of whom have published results in journals of national and international repute.",
   peos: [],
   psos: [],
+  pageindex:3,
 };
 
 const BTECH_SELF_FINANCED = {
@@ -92,6 +93,7 @@ const BTECH_SELF_FINANCED = {
   why: "Pursuing a B.Tech at Jamia Millia Islamia (JMI) is an excellent choice for engineering education. JMI offers a variety of engineering programs. Located in New Delhi, JMI provides several advantages, such as proximity to industries, research institutions, and opportunities for extracurricular activities, all of which enhance the overall educational experience. With its rich cultural heritage, JMI has a diverse student body and an inclusive environment that fosters cultural exchange, collaboration, and networking. The B.Tech program at JMI is supported by a strong faculty, many of whom have pursued higher education at top institutions both in India and abroad. Their expertise plays a crucial role in shaping students’ knowledge and skills. Furthermore, JMI has a robust alumni network, with graduates holding top positions in many renowned companies and institutions. The university also offers a variety of clubs and societies to help students build a strong set of skills and networks. The B.Tech program boasts a good placement record, with companies such as Zenon Analytics, Accenture, and others actively recruiting students on campus. JMI provides essential facilities, including well-equipped laboratories, libraries, modern infrastructure, and good hostel accommodation.",
   peos: [],
   psos: [],
+  pageindex:1,
 };
 
 const MTECH_SELF_FINANCED = {
@@ -105,6 +107,7 @@ const MTECH_SELF_FINANCED = {
   why: "Pursuing an M.Tech at Jamia Millia Islamia (JMI) is an exceptional choice for advanced engineering education. JMI offers a diverse range of M.Tech programs tailored to meet current industry demands. Situated in New Delhi, JMI provides numerous advantages, including proximity to industries, research institutions, and a wealth of extracurricular activities, all of which enhance the overall educational experience. With its rich cultural heritage, JMI fosters a diverse student body and an inclusive environment that encourages cultural exchange, collaboration, and networking. The M.Tech programs are supported by a distinguished faculty, many of whom have pursued advanced degrees at prestigious institutions both in India and abroad. Their expertise is vital in shaping students’ knowledge and skills. Moreover, JMI has a strong alumni network, with graduates achieving top positions in renowned companies and institutions. The university also offers various clubs and societies that help students develop essential skills and build valuable networks. The M.Tech programs boast an impressive placement record, with companies such as Zenon Analytics, Accenture, and others actively recruiting students on campus. JMI provides essential facilities, including well-equipped laboratories, extensive libraries, modern infrastructure, and comfortable hostel accommodation.",
   peos: [],
   psos: [],
+  pageindex:2,
 };
 
 export const COURSES = [
