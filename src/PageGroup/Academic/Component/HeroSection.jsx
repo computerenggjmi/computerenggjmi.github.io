@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const HeroSection = ({ title, shortTitle, text }) => {
+const HeroSection = ({ title, shortTitle, text,pageindex}) => {
   const navigate = useNavigate();
   return (
     <div className="h-auto w-full bg-gradient-to-r from-black to-green-deep bg-fixed">
@@ -14,8 +14,19 @@ const HeroSection = ({ title, shortTitle, text }) => {
           <p className="text-gray-400">{text}</p>
           <button
             className="w-fit rounded-lg border border-gray-300 px-3 py-1 text-green-yellow"
-            onClick={() =>
-              navigate(`/academic/courseStructure?course=${shortTitle}`)
+            onClick={() =>{
+              if(pageindex==1){
+                window.open('https://jmi.ac.in/upload/programme/cs_fet_comp_engg_btech_Data_Sciences_2025.pdf')
+              }
+              else if(pageindex==2){
+                window.open('https://jmi.ac.in/upload/programme/cs_fet_comp_engg_mtech_Data_Sciences_2025.pdf')
+              }
+              else if(pageindex==3){
+                window.open('https://jmi.ac.in/upload/programme/cs_fet_comp_engg_phd_2025.pdf');
+              }else{
+                navigate(`/academic/courseStructure?course=${shortTitle}`)  
+              }
+            }
             }
           >
             Program Structure {">>>"}{" "}

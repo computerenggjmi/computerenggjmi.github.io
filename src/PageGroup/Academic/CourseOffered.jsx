@@ -21,6 +21,7 @@ function CourseOffered() {
         title={COURSES[courseIndex].title}
         shortTitle={COURSES[courseIndex].short_title}
         text={COURSES[courseIndex].description}
+        pageindex={COURSES[courseIndex]?.pageindex ?? 'default'}
       />
       <Ribbon
         fee={COURSES[courseIndex].fee}

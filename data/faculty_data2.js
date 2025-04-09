@@ -7,6 +7,16 @@ import bashirSirImg from "../src/PageGroup/About/assets/bashialam.jpg";
 import pdf from "../src/PageGroup/People/assets/dummy_pdf.pdf";
 import SarfarazSir from "../images/Faculty/Sarfaraz Sir.jpg";
 import FaiyazSir from "../images/Faculty/Faiyaz Sir.jpg";
+import Danishsir from "../images/Faculty/Danishsir.jpg";
+import jawaharsir from "../images/Faculty/jawaharsir.jpg";
+import Musheersir from "../images/Faculty/Musheersir.jpg";
+import Tanweersir from "../images/Faculty/Tanweersir.jpg";
+import firozsir from "../images/Faculty/firozsir.png";
+import shamimsir from "../images/Faculty/shamimsir.png";
+import hannansir from "../images/Faculty/hannansir.png";
+import waseemsir from "../images/Faculty/waseemsir.png";
+
+
 
 export const HOD = {  
     name: "Prof. Mohammad Amjad",
@@ -39,11 +49,11 @@ export const faculty_data = [
     areaOfIntrest:
       "Parallel Programming, Cluster programming, Distributed and Cloud computing, Information Security, High Performance Computing, GPU Computing",
     details:
-      "Dr. Bashir Alam is currently Associate Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia (A Central University), New Delhi-110025. He has more than 15 years of teaching experience at post graduate, graduate and under graduate level. He received his B.Tech.(Computer Engineering) from Aligarh Muslim University Aligarh, Uttar Pradesh, India in 2000 with division First(Hons.)(8.6 /10 CPI), M.Tech. (IT) from IP University, Delhi, India in 2006 with division first (73 % marks), Ph.D.(Computer Engineering) from Jamia Millia Islamia, New Delhi, India in 2010. He previously worked as Lecturer, Department of Computer Science, Jamia Hamdard, New Delhi-110062 from 04/07/2000 to 21/09/2006. He was Principal Investigator for the following Funded Research Projects 'GPU based Router using Multigraph, funded by Jamia Millia Islamia, amount 1 lakh. “NVIDIA CUDA teaching Centre” funded by NVIDIA by means of donating one Tesla K20, two Quadro K5000 and two GTX 750 GPU along with two jetson TK1 Board and Books worth 6 Lakhs. A Major Research Project funded by Ministry of IT and Communication, government of India, amount 39.30 Lakhs (recommended by working group, Sanction letter is awaited). Prof Bashir Alam has published a total of 48 papers in which 22 of them are in journals, 24 of them are in International conferences and 2 are in national conference. He has also done Short term Course on High Performance Parallel and Enterprise Computing, April 12 – 18 2010, I.I.T. Kharagpur, India. Prof Bashir Alam has got CCNA and CCAI certification. He is a life time member of ISTE (Indian Society for Technical Education). He is Member of Board of Studies and faculty committee, Department of Computer Engineering, Jamia Millia Islamia, New Delhi. He was also Member of Board of Studies and faculty committee, Department of Computer Science, Jamia Hamdard, New Delhi. Prof Bashir Alam was also coach of Jamia Hamdard team for the 2003 ACM Asia ICPC(International Collegiate Programming Contest) at IIT Roorkee (10th Place) Coach and coach of Jamia Millia Islamia team for the 2014 ACM Asia ICPC(International Collegiate• Programming Contest) at IIIT Gwalior. He is also member of organizing team of Algorythm 2007 and Algorythm 2008 of department of Computer Engineering, Jamia Millia Islamia, New Delhi.",
+      "Dr. Bashir Alam is currently Professor in the Department of Computer Engineering, Faculty of Engineering and Technology, Jamia Millia Islamia (A Central University), New Delhi-110025. He has more than 15 years of teaching experience at post graduate, graduate and under graduate level. He received his B.Tech.(Computer Engineering) from Aligarh Muslim University Aligarh, Uttar Pradesh, India in 2000 with division First(Hons.)(8.6 /10 CPI), M.Tech. (IT) from IP University, Delhi, India in 2006 with division first (73 % marks), Ph.D.(Computer Engineering) from Jamia Millia Islamia, New Delhi, India in 2010. He previously worked as Lecturer, Department of Computer Science, Jamia Hamdard, New Delhi-110062 from 04/07/2000 to 21/09/2006. He was Principal Investigator for the following Funded Research Projects 'GPU based Router using Multigraph, funded by Jamia Millia Islamia, amount 1 lakh. “NVIDIA CUDA teaching Centre” funded by NVIDIA by means of donating one Tesla K20, two Quadro K5000 and two GTX 750 GPU along with two jetson TK1 Board and Books worth 6 Lakhs. A Major Research Project funded by Ministry of IT and Communication, government of India, amount 39.30 Lakhs (recommended by working group, Sanction letter is awaited). Prof Bashir Alam has published a total of 48 papers in which 22 of them are in journals, 24 of them are in International conferences and 2 are in national conference. He has also done Short term Course on High Performance Parallel and Enterprise Computing, April 12 – 18 2010, I.I.T. Kharagpur, India. Prof Bashir Alam has got CCNA and CCAI certification. He is a life time member of ISTE (Indian Society for Technical Education). He is Member of Board of Studies and faculty committee, Department of Computer Engineering, Jamia Millia Islamia, New Delhi. He was also Member of Board of Studies and faculty committee, Department of Computer Science, Jamia Hamdard, New Delhi. Prof Bashir Alam was also coach of Jamia Hamdard team for the 2003 ACM Asia ICPC(International Collegiate Programming Contest) at IIT Roorkee (10th Place) Coach and coach of Jamia Millia Islamia team for the 2014 ACM Asia ICPC(International Collegiate• Programming Contest) at IIIT Gwalior. He is also member of organizing team of Algorythm 2007 and Algorythm 2008 of department of Computer Engineering, Jamia Millia Islamia, New Delhi.",
   },
   {
     name: "Prof. Tanvir Ahmad",
-    dp: "https://computerenggjmi.github.io/html/educat-preview/educat/img/team/1.jpg",
+    dp: Tanweersir,
     onclick: "id2",
     designation: "( Professor )",
     department:
@@ -75,7 +85,7 @@ export const faculty_data = [
   },
   {
     name: "Dr. Danish Raza Rizvi",
-    dp: "https://computerenggjmi.github.io/images/danishRizvi.png",
+    dp: Danishsir,
     onclick: "id4",
     designation: "( Assistant Professor )",
     department:
@@ -105,7 +115,7 @@ export const faculty_data = [
   },
   {
     name: "Dr. Musheer Ahmad",
-    dp: "https://computerenggjmi.github.io/images/musheerAhmad.png",
+    dp: Musheersir,
     onclick: "id9",
     designation: "( Assistant Professor )",
     department:
@@ -168,7 +178,7 @@ export const faculty_data = [
   },
   {
     name: "Mr. Jawahar Lal",
-    dp: "https://computerenggjmi.github.io/images/jawaharLal.png",
+    dp: jawaharsir,
     onclick: "id6",
     designation: "( Assistant Professor )",
     department:
@@ -183,9 +193,9 @@ export const faculty_data = [
   },
   {
     name: "Mr. Hannan Mansoor",
-    dp: "https://computerenggjmi.github.io/images/hannanMansoor.png",
+    dp: hannansir,
     onclick: "id14",
-    designation: "( Assistant Professor - Contractual )",
+    designation: "( Assistant Professor - Guest Faculty )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "",
@@ -196,7 +206,7 @@ export const faculty_data = [
   },
   {
     name: "Dr. Waseem Ahmed",
-    dp: "https://computerenggjmi.github.io/images/waseemAhmed.png",
+    dp: waseemsir,
     onclick: "id15",
     designation: "( Assistant Professor - Contractual )",
     department:
@@ -210,7 +220,7 @@ export const faculty_data = [
     name: "Dr. Nehal Ahmad",
     dp: nehalSirImg,
     onclick: "id13",
-    designation: "( Assistant Professor )",
+    designation: "( Assistant Professor - Contractual )",
     department:
       "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
     mobileNumber: "9350850160",
@@ -218,10 +228,38 @@ export const faculty_data = [
     pdf: "",
     portfolio: "Professional Portfolio",
     areaOfIntrest:
-      "Machine Learning, Deep Learning, Optimization, Random Vector Functional Link Network,  Natural Language Processing, Applications of AI in Biomedical Domain, Web Mining and Searching",
+      "Machine Learning, Deep Learning, Optimization, Random Vector Functional Link Network,  Natural Language Processing, Applications of AI in Biomedical Domain",
     details:
       `Dr. Nehal Ahmad (Assistant Professor, Dept. of Computer Engineering JMI) obtained his undergraduate degree (Computer Engineering) from  Jamia Millia Islamia Central University New Delhi, India in the year 2016. He earned  M.S. (Gold Medalist) in the field of Machine Learning from the Department of Electrical Engineering and Computer Science, National Taipei  University of Technology, Taiwan with an "Award of Excellence" and prize money of 100$ (first rank in the department) in the year 2020. He was the recipient of Ministry of Education (MoE Fellow) Fellowship, Govt. of Taiwan for  the higher education in the country. Dr. Nehal earned his Ph.D. degree in the area of Machine learning (biomedical engineering domain) from National Taipei  University of Technology, Taiwan in collaboration with IIT Indore, India in the year 2023. He joined the department of Computer Engineering as an Assistant Professor in July 2024.
       Dr. Nehal bagged the "Best Paper Award" in an international CORE ranked “A” Conference "ICONIP-2022" with awarding prize of 400 $ . He has published his research articles in top quality reputed journals such as  IEEE  Journal of Biomedical and Health Informatics (Impact factor 7.021, earlier IEEE Transaction), Information Fusion (I.F = 18.6) etc.
       Dr. Nehal is also serving as a reviewer of several journals of repute. His current research interests include the area of Machine Learning, Deep Learning, Optimization, Random Vector Functional Link Network,  Natural Language Processing, Applications of AI in Biomedical Domain, Web Mining and Searching.`,
   },
+  {
+    name: "Dr. Firoj Ahamad",
+    dp: firozsir,
+    onclick: "id17",
+    designation: "( Assistant Professor - Contractual )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "7379474069",
+    email:`g.fahamad@jmi.ac.in`,
+    areaOfIntrest: "",
+    pdf: "https://jmi.ac.in/upload/employeeresume/g.fahamad.pdf",
+    details: "",
+  },
+  {
+    name: "Mr. Shamim Ahmad",
+    dp: shamimsir,
+    onclick: "id16",
+    designation: "( Assistant Professor - Guest Faculty )",
+    department:
+      "Department of Computer Engineering, Jamia Millia Islamia <br>                                                            New Delhi, Delhi-110025 India",
+    mobileNumber: "9643330447",
+    email:`sahmad33@jmi.ac.in`,
+    areaOfIntrest:
+      "",
+    pdf: "https://jmi.ac.in/upload/employeeresume/shamimahmad_ce.pdf",
+    details: "",
+  },
+ 
 ];

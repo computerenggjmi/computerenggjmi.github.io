@@ -38,19 +38,19 @@ export const achievementInTech = [
     id: "oneX",
     title: "Touchless Automatic Attendance Marking System",
     description:
-      "Mr. Danish Raza Rizvi along with Shivank Tripathi and Md. Nafis Khan developed the Students Attendance Manager Mobile App. Manual process of attendance management consumes a lot of time and paper resources. To prevent this, they introduced a system that consists of an android app with its web interface and for teacher and students. In this system, the students register themselves with their device and connect to the server. Application scans for the devices connected to the specific server in their local network without any manual intervention and marks them present in the database. This enable us to save a lot of time, help in storing record and also to track attendance.",
+      "Dr. Danish Raza Rizvi along with Shivank Tripathi and Md. Nafis Khan developed the Students Attendance Manager Mobile App. Manual process of attendance management consumes a lot of time and paper resources. To prevent this, they introduced a system that consists of an android app with its web interface and for teacher and students. In this system, the students register themselves with their device and connect to the server. Application scans for the devices connected to the specific server in their local network without any manual intervention and marks them present in the database. This enable us to save a lot of time, help in storing record and also to track attendance.",
   },
   {
     id: "twoX",
-    title: "Geo-Fencing Box by Mr. M Zeeshan Ansari and Abhinav Rai",
+    title: "Geo-Fencing Box by Dr. M Zeeshan Ansari and Abhinav Rai",
     description:
-      "Abhinav Rai, 4th Year Computer Engineering and his team under the Mentorship of their faculty members Mr. M Zeeshan Ansari and Mr. Faiyaz Ahmad, proposed an outstanding solution for the problem of ever-increasing UAVs (Unmanned Aerial Vehicles) that may cause troubles in air traffic. This problem was given in the Smart India Hackathon - 2017 by the Ministry of Civil Aviation. The team was all India winner at Smart India Hackathon – 2017 and was awarded prize of 1 Lakh Rupees.",
+      "Abhinav Rai, 4th Year Computer Engineering and his team under the Mentorship of their faculty members Dr. M Zeeshan Ansari and Dr. Faiyaz Ahmad, proposed an outstanding solution for the problem of ever-increasing UAVs (Unmanned Aerial Vehicles) that may cause troubles in air traffic. This problem was given in the Smart India Hackathon - 2017 by the Ministry of Civil Aviation. The team was all India winner at Smart India Hackathon – 2017 and was awarded prize of 1 Lakh Rupees.",
   },
   {
     id: "threeX",
     title: "Intelligent Home Appliance Control System",
     description:
-      "Dr. Mohd. Amjad, Mr. Mohd. Zeeshan Ansari and their students have developed an Automation System which provides remote operation of home appliances though their mobiles. The Mobile Application mainly provides management and control of home appliances and program them in order to accomplish the household tasks. Using this mobile application, the tasks that can be intelligently managed include automatic turn on and off for lights, fan, etc. It also offers a solution for connecting any types of home appliances even AC, TV, refrigerator through a single mobile application.",
+      "Dr. Mohd. Amjad, Dr. Mohd. Zeeshan Ansari and their students have developed an Automation System which provides remote operation of home appliances though their mobiles. The Mobile Application mainly provides management and control of home appliances and program them in order to accomplish the household tasks. Using this mobile application, the tasks that can be intelligently managed include automatic turn on and off for lights, fan, etc. It also offers a solution for connecting any types of home appliances even AC, TV, refrigerator through a single mobile application.",
   },
   {
     id: "fourX",
