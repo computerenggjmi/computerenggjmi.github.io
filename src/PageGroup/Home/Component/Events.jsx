@@ -24,9 +24,9 @@ const Events = () => {
           >
             <div className="flex w-full flex-col gap-y-3 bg-green-light px-4 py-4 pl-6 text-base sm:px-8 sm:pl-8 md:px-12">
               <h3 className="font-semibold">{event.tagline}</h3>
-              <a href="/event" className="">
+              <a href="/#/event" className="">
                 <p className="text-black">
-                  {event.desc.substring(0, 55)}...{" "}
+                  {event.desc.substring(0, 60)}...{" "}
                   <span className=" font-semibold text-green-950 underline underline-offset-4">
                     Read more
                   </span>

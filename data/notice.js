@@ -13,8 +13,23 @@ import presentationSchedule2024 from "../pdf/Notice/20-08-2024 PRESENTATION SCHE
 import regularCompartmentExam2024 from "../pdf/Notice/23-08-2024 REGULAR COMPARTMENT EXAMINATION .pdf";
 import midTerm20222nd from "../pdf/Notice/25-10-2022 2nd MID-TERM.pdf";
 import midTerm20231st_2 from "../pdf/Notice/27-09-2023 1st Mid-Term.pdf";
+import Datesheet_2nd_sessional_2025 from "../pdf/Notice/Datesheet_2nd_sessional_2025.pdf";
+import First_sessional_datesheet from "../pdf/Notice/First_sessional_datesheet.jpg";
+
 
 export const notice = [
+  {
+    id: 17,
+    date: "2025-04-02",
+    headline: "Datesheet for Second Sessional",
+    url: Datesheet_2nd_sessional_2025
+  },
+  {
+    id: 16,
+    date: "2025-02-24",
+    headline: "Datesheet for First Sessional",
+    url: First_sessional_datesheet
+  },
   {
     id: 1,
     date: "2024-09-05",
