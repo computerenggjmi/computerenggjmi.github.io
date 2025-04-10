@@ -16,7 +16,7 @@ const B14 = [
   { rollNo: "14BCS0014", name: "Kashan uddin Zaigham Khan" },
   { rollNo: "14BCS0015", name: "Rishabh Jain" },
   { rollNo: "14BCS0016", name: "Saurabh Purohit" },
-  { rollNo: "14BCS0017", name: "Shubham Garg" },
+  { rollNo: "14BCS0017", name: "Shubham  Garg" },
   { rollNo: "14BCS0018", name: "Suhail Khan" },
   { rollNo: "14BCS0019", name: "Tafseer Ahmed" },
   { rollNo: "14BCS0020", name: "Vaibhav Sighal" },
